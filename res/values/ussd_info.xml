@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<array name="ussdcodes">
+	<item>
+		{\"title\":\"Balance\",
+		\"description\":\"The description of this ussd code.\",
+		\"code\":\"*#100#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Validity\",
+		\"description\":\"The description of this ussd code.\",
+		\"code\":\"*#101#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Last call\",
+		\"description\":\"The description of this ussd code.\",
+		\"code\":\"*#102#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Poke\",
+		\"description\":\"The description of this ussd code.\",
+		\"code\":\"*#112*contact#\"
+		}
+	</item>
+	<item>
+		{\"title\":\"Lock contact\",
+		\"description\":\"The description of this ussd code.\",
+		\"code\":\"*#122*02*contact#\"
+		}
+	</item>
+</array>
+<string name="prefix">+351</string>
+</resources>

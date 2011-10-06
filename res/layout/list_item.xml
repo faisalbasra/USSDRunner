@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content">
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/linear"
+		android:layout_width="fill_parent"
+		android:layout_height="50dip"
+		android:orientation="horizontal">
+		<Button
+			android:id="@+id/bar"
+			android:layout_height="fill_parent"
+			android:layout_width="270dip"
+			android:text="title"
+			android:textSize="18dip"
+			android:textColor="#fefefe"
+			android:gravity = "center"
+			android:background="#000000"/>
+		<View
+   			android:background="#b8b8b8"
+   			android:layout_width="1dip"
+   			android:layout_height="40dip"
+   			android:layout_gravity="center"/>
+    	 <Button
+        	android:id="@+id/ussdinfobutton"
+			android:layout_height="fill_parent"
+			android:layout_width="50dip"
+			android:text="i"
+			android:textSize="18dip"
+			android:textColor="#fefefe"
+			android:layout_alignParentRight = "true"
+        	android:background="#000000"/>
+	</LinearLayout>
+	<View
+   		android:background="#b8b8b8"
+   		android:layout_width="fill_parent"
+   		android:layout_height="1dip"
+   		android:layout_marginTop="50dip"/>
+</RelativeLayout>

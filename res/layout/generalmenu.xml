@@ -1,0 +1,5 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/iwebsite"
+        android:title="Website"
+        android:icon="@android:drawable/ic_menu_info_details" />
+</menu>
